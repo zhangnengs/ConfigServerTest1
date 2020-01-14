@@ -13,8 +13,5 @@ spring:
       ddl-auto: update
 server:
   port: 10200
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8888/eureka,http://localhost:9999/eureka
+
 version: UserProvider01
